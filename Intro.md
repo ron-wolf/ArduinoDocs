@@ -4,7 +4,7 @@
 ### Functions
 **Functions** are the building blocks of a program. Most will look like this:
 
-```wiring
+```Arduino
 output function(parameter) {
     code
 }
@@ -24,7 +24,7 @@ The second function all Wiring programs must have is `loop()`. This is the main 
 
 A basic, nonfunctioning Arduino program will look like this:
 
-```wiring
+```Arduino
 void setup() {
 
 }
