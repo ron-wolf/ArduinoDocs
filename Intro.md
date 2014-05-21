@@ -40,5 +40,3 @@ void loop() {
 ```
 
 Of course, you’ll need to add code to run between the brackets. That’s where statements come in.
-
-### Statements
