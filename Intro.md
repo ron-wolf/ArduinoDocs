@@ -14,7 +14,7 @@ output function(parameter) {
 
 `function`: The name of the function. It lets Arduino know what it’s going to do with the parameters.
 
-`(parameter)`: A fancy word for “what has to be true for this function to run”. Parameters are usually in the form of logical statements—things that can be either true or false.
+`parameter`: A fancy word for “what has to be true for this function to run”. Parameters are usually in the form of logical statements—things that can be either true or false.
 
 `code`: What Arduino does if the parameters are true. More on this later in the documentation.
 
