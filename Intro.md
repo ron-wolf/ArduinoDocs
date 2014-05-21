@@ -14,9 +14,9 @@ output function(parameter) {
 
 `function`: The name of the function. It lets Arduino know what it’s going to do with the parameters.
 
-`parameter`: A fancy word for “what has to be true for this function to run”. Parameters are usually in the form of logical statements—things that can be either true or false.
+`parameter`: A fancy word for “what has to be true for this function to run”. Parameters are usually in the form of logical statements—things that can be either true or false. More on how these work later in the documentation.
 
-`code`: What Arduino does if the parameters are true. More on this later in the documentation.
+`code`: What Arduino does if the parameters are true. You’ll learn what to write here in the next section.
 
 Always make sure to put {brackets} around the code in the function or your code will break! In addition, although your code will work just fine if you don’t tab in the code between the brackets or put the brackets on a new line like I did, these practices will help you read through your code and prevent many common errors like forgetting brackets and parentheses.
 
