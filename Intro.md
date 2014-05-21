@@ -1,8 +1,8 @@
 ### Arduino
-*Arduino* is a circuit board programmable from a computer. It is an *open source* project, meaning anyone with a computer, an Internet connection, and coding knowledge can help out with its development. To program for the board, you’ll need to know how to code *Wiring*, a programming language based on the widely used C. This documentation is here to get you started on that.
+**Arduino** is a circuit board programmable from a computer. It is an **open source** project, meaning anyone with a computer, an Internet connection, and coding knowledge can help out with its development. To program for the board, you’ll need to know how to code **Wiring**, a programming language based on the widely used C. This documentation is here to get you started on that.
 
 ### Functions
-*Functions* are the building blocks of a program. Most will look like this:
+**Functions** are the building blocks of a program. Most will look like this:
 
 ```wiring
 output function(parameter) {
@@ -32,6 +32,7 @@ void setup() {
 void loop() {
 
 }
+```
 
 Of course, you’ll need to add code to run between the brackets. That’s where statements come in.
 
