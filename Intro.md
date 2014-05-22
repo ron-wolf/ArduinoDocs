@@ -6,7 +6,7 @@
 
 ```Arduino
 output function(parameter) {
-    code
+    procedure
 }
 ```
 
@@ -16,9 +16,9 @@ output function(parameter) {
 
 `parameter`: A fancy word for “what has to be true for this function to run”. Parameters are usually in the form of logical statements—things that can be either true or false. More on how these work later in the documentation.
 
-`code`: What Arduino does if the parameters are true. You’ll learn what to write here in the next section.
+`procedure`: What Arduino does if the parameters are true. You’ll learn what to write here in the next section.
 
-Always make sure to put {brackets} around the code in the function or your code will break! In addition, although your code will work just fine if you don’t tab in the code between the brackets or put the brackets on a new line like I did, these practices will help you read through your code and prevent many common errors like forgetting brackets and parentheses.
+Always make sure to put `{`brackets`}` around the code in the function or your code will break! In addition, although your code will work just fine if you don’t tab in the code between the brackets or put the brackets on a new line like I did, these practices will help you read through your code and prevent many common errors like forgetting brackets and parentheses.
 
 ### Basic Functions
 There are a few functions every Wiring program must have in order to run in the first place.
@@ -40,3 +40,29 @@ void loop() {
 ```
 
 Of course, you’ll need to add code to run between the brackets before your program runs. That’s where statements come in.
+
+### Statements
+When giving someone instructions on how to do something, you give them steps to proceed through in order in the form of sentences. Likewise, you’ll use statements to tell Arduino how to accomplish a task. Statements make up the procedures that functions run based on the truth value of their parameters. They come in two forms:
+
+```Arduino
+statement(parameter);
+```
+
+and
+
+```Arduino
+statement;
+```
+
+Just as in functions, the parameters go between the parentheses. However, parameters to statements usually tell Arduino _how_ to run the statement, not _whether_ to run the statement. Of course, there are exceptions to every rule, but get used to parameters that tell statements how to run in Arduino.
+
+Don’t forget to put a semicolon`;` after each statement!
+
+### Common Functions
+The first function you’ll probably use a lot is `if()`. The truth value of what you put between the parentheses of an if statement tells Arduino whether to run what’s between the following brackets.
+
+If you want to run code over and over again, if statements won’t quite cut it. You’ll have to use `while()`. It’s basically an if statement that runs over and over again as long as its parameters are true. You might use a while loop to perform an action over and over again or keep Arduino from moving on to the next statement until
+
+Be careful with while statements! If your procedure and/or parameters are too intensive to run and your parameters stay true for a while (no pun intended), Arduino could break.
+
+This is one of the many uses for the statement `delay()`. The parameter of a delay statement should evaluate to a whole number in milliseconds, thousandths of a second. Add `delay(10);` at the end of every loop you use, including while loops, to give Arduino a break after a hard day’s work—or, rather, a hard second’s work.
