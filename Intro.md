@@ -27,7 +27,7 @@ The first function you’ll need to know is `setup()`. This function takes no pa
 
 The second function all Wiring programs must have is `loop()`. This is the main body of your program, and it will run over and over again as long as Arduino is connected to a power source. Like `setup()`, `loop()` requires `void` as its output to work: `void loop()`.
 
-A basic, nonfunctioning Arduino program will look like this:
+Here is a basic outline of a Wiring program:
 
 ```Arduino
 void setup() {
