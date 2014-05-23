@@ -1,3 +1,6 @@
+### Documentation
+Every good programming language has documentation, with usefulness varying from an all-encompassing manual to a layman’s handbook to a mere list of commands. Choose what kind of documentation to use based on your own skill level. Those who have already learned Arduino but are seeking clarifications may find this guide tedious; these people may want to use n-r/a. There is also comprehensive, official documentation at arduino.cc/en/Guide/HomePage. This documentation is intended for those who have not yet learned Arduino as a less daunting alternative to the official documentation. Always remember that this documentation is not your only source!
+
 ### Arduino
 **Arduino** is a circuit board programmable from a computer. It is an **open source** project, meaning anyone with a computer, an Internet connection, and coding knowledge can help out with its development. To program for the board, you’ll need to know how to code **Wiring**, a programming language based on the widely used C. This documentation is here to get you started on that.
 
@@ -65,4 +68,4 @@ If you want to run code over and over again, if statements won’t quite cut it.
 
 Be careful with while statements! If your procedure and/or parameters are too intensive to run and your parameters stay true for a while (no pun intended), Arduino could break.
 
-This is one of the many uses for the statement `delay()`. The parameter of a delay statement should evaluate to a whole number in milliseconds, thousandths of a second. Add `delay(10);` at the end of every loop you use, including while loops, to give Arduino a break after a hard day’s work—or, rather, a hard second’s work.
+This is one of the many uses for the statement `delay()`. The parameter of a delay statement should evaluate to a whole number in milliseconds, thousandths of a second. Add `delay(10);` at the end of every loop you use, including while loops, to give Arduino a break after a hard day’s work—actually, a hard second’s work.
