@@ -1,5 +1,5 @@
 ### Documentation
-Every good programming language has documentation, with usefulness varying from an all-encompassing manual to a layman’s handbook to a mere list of commands. Choose what kind of documentation to use based on your own skill level. Those who have already learned Arduino but are seeking clarifications may find this guide tedious; these people may want to use n-r/a. There is also comprehensive, official documentation at arduino.cc/en/Guide/HomePage. This documentation is intended for those who have not yet learned Arduino as a less daunting alternative to the official documentation. Always remember that this documentation is not your only source!
+Every good programming language has documentation, with usefulness varying from an all-encompassing manual to a layman’s handbook to a mere list of commands. Choose what kind of documentation to use based on your own skill level. Those who have already learned Arduino but are seeking clarifications may find this guide tedious; these people may want to use [n-r/a](https://github.com/n-r/a). There is also comprehensive, official documentation at arduino.cc/en/Guide/HomePage. This documentation is intended for those who have not yet learned Arduino as a less daunting alternative to the official documentation. Always remember that this documentation is not your only source!
 
 ### Use with Caution
 Although this is a great guide for those new to programming, it assumes you understand each concept and moves on. Make sure you understand everything in a section before moving on to the next. You can ask for help from [whoever’s listening](https://github.com/ron-wolf/ArduinoDocs/graphs/contributors) by posting an issue [here](https://github.com/ron-wolf/ArduinoDocs/issues/new). (This requires a GitHub account. If you don’t have one, get it [here](https://github.com).)
@@ -67,7 +67,7 @@ Don’t forget to put a semicolon`;` after each statement!
 ### Common Functions
 The first function you’ll probably use a lot is `if()`. The truth value of what you put between the parentheses of an if statement tells Arduino whether to run what’s between the following brackets.
 
-If you want to run code over and over again, if statements won’t quite cut it. You’ll have to use `while()`. It’s basically an if statement that runs over and over again as long as its parameters are true. You might use a while loop to perform an action over and over again or keep Arduino from moving on to the next statement until
+If you want to run code over and over again, if statements won’t quite cut it. You’ll have to use `while()`. It’s basically an if statement that runs over and over again as long as its parameters are true. You might use a while loop to perform an action over and over again or keep Arduino from moving on to the next statement until something happens.
 
 Be careful with while statements! If your procedure and/or parameters are too intensive to run and your parameters stay true for a while (no pun intended), Arduino could break.
 
