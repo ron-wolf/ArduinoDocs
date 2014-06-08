@@ -1,2 +1,2 @@
-[ ] start History.md
-[ ] finish Intro.md
+- [ ] start History.md
+- [ ] finish Intro.md
